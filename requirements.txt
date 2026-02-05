@@ -1,0 +1,21 @@
+# 核心依赖
+openai>=1.12.0          # OpenAI API (GPT-4o)
+anthropic>=0.18.0       # 可选：Claude Vision API
+python-dotenv>=1.0.0    # 环境变量管理
+
+# 图像和视频处理
+opencv-python>=4.8.0    # 计算机视觉 (OpenCV)
+pillow>=10.0.0          # 图像处理
+numpy>=1.24.0           # 数值计算
+
+# HTTP 和 JSON
+requests>=2.31.0        # HTTP 请求
+httpx>=0.25.0           # 异步 HTTP
+
+# 实用工具
+tqdm>=4.66.0            # 进度条
+colorama>=0.4.6         # 终端彩色输出
+
+# 开发工具（可选）
+pytest>=7.4.0           # 测试框架
+black>=23.0.0           # 代码格式化
